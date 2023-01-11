@@ -13,5 +13,5 @@ def inicio (request):
         else:
             print("Error",form.errors)
     form=UsuarioForm()    
-    return render (request,"inicio.html",{'form':form})
+    return render (request,"inicio.html", {'form':form})
 
